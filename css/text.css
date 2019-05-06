@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* html, body {
+    overflow-x: hidden;
+} */
+.text-div-1{
+    width: 400%;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 50px;
+}
+.text-div-2{
+    width: 400%;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: -500px;
+    height: 50px;
+}
+
+.text{
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    z-index: 0;
+    padding-right: 10px;
+}
+.overlapping{
+    background-image: url(/images/text-overlapping-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0px;
+    height: 1000px;
+    width: 100vw;
+    z-index: 10;
+
+}
+@media only screen and (max-width: 1200px) {
+    .overlapping{
+        background-image: url(/images/overlapping1200.svg);
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .text-weg{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .text-div-1{
+        display: none;
+    }
+    .text-div-2{
+        display: none;
+    }
+  }
+  

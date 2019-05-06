@@ -1,0 +1,19 @@
+{
+"short_name": "Portfolio",
+"name": "Portfolio",
+"icons": [
+    {
+      "src": "/images/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/512.png",
+      "type": "image/png", 
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/hogerlager.html",
+  "display": "standalone",
+  "theme_color": "#42f4b9"
+}
